@@ -1,6 +1,6 @@
 spring:
   application:
-    name: customer-service
+    name: booking-service
   datasource:
     driver-class-name: org.hsqldb.jdbc.JDBCDriver
     url: jdbc:hsqldb:mem:testdb;DB_CLOSE_DELAY=-1
@@ -10,9 +10,7 @@ spring:
     hibernate:
       ddl-auto: create
 
-
-
 server:
-  port: 8201
+  port: 8205
   error:
     include-message: always
